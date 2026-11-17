@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets - NEVER commit real API keys
+.env
+
+# Local data & storage
+data/raw/*
+!data/raw/.gitkeep
+qdrant_storage/
+
+# Dagster local state
+.dagster_home/
+tmp*/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
